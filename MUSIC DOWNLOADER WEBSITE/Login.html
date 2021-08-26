@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title> Login Page </title>
+  <link rel ="stylesheet" href ="style.css">
+</head>
+<body>
+  <form class ="box" name="loginForm" onsubmit="return check(form)" action ="front.html" method ="post";>
+    <h1><font color="blue"> LOGIN</font> </h1>
+    <input type ="text"  placeholder="username" name ="userid" required>
+    <input type ="password"  placeholder="password"  name ="pwd" required>
+    <input type ="submit"  onclick="return check(this.form)" value="LOGIN">
+    <input type ="RESET" value="RESET">
+</form>
+<script language="javascript">
+function check(form)
+{
+
+if(form.userid.value == "Aayush" && form.pwd.value == "1701214")
+{
+  submit.onclick="Location.href='E:\SEM 6\WT LAB\MUSIC DOWNLOADER WEBSITE\front.html";
+}
+else
+{
+  alert("Incorrect Login Information")
+  return false;
+}
+}
+</script>
+</body>
+</html>   
+
+0
